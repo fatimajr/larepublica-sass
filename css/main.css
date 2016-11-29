@@ -1,7 +1,6 @@
 /*-- COLORES --*/
 /*-- TAMANIOS --*/
 /*-- FONTS --*/
-<<<<<<< HEAD
 .container-fluid {
   background-color: #E2E6E9; }
 
@@ -59,8 +58,6 @@
   .menu2 a {
     padding: 0vh 2vh; }
 
-=======
->>>>>>> 9d2a6e63cf14d922cd097642e64770e129dcd380
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -135,7 +132,6 @@ h6:nth-child(2) {
 .space2 {
   margin-bottom: 6px; }
 
-<<<<<<< HEAD
 .btn {
   background-color: #BA1414;
   color: white; }
@@ -146,27 +142,13 @@ h6:nth-child(2) {
 .separador {
   margin-bottom: 4vh; }
 
-=======
->>>>>>> 9d2a6e63cf14d922cd097642e64770e129dcd380
 @media (max-width: 750px) {
   .caja {
     margin: 1vh 0vh; }
 
-<<<<<<< HEAD
   .row {
     margin: 0px; }
 
-=======
-  .space {
-    margin: 0px; }
-
-  .space-responsive {
-    margin-bottom: 6px; }
-
-  .space2 {
-    margin-bottom: 0px; }
-
->>>>>>> 9d2a6e63cf14d922cd097642e64770e129dcd380
   .footer-2 {
     font-size: 18px;
     display: inline-block;
