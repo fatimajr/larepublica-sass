@@ -1,6 +1,63 @@
 /*-- COLORES --*/
 /*-- TAMANIOS --*/
 /*-- FONTS --*/
+.container-fluid {
+  background-color: #E2E6E9; }
+
+.redes {
+  padding-top: 2vh; }
+  .redes span {
+    padding: 0vh 2vh;
+    font-size: 0.8em; }
+  .redes i {
+    padding: 0vh 1vh; }
+
+.borde-rojo {
+  border: solid #E2E6E9 2px;
+  border-bottom: solid #BA1414 4px;
+  padding: 2vh; }
+
+.domingo {
+  position: relative;
+  bottom: 3vh;
+  background: #BA1414;
+  color: white;
+  padding: 1vh; }
+
+.caja-gris-texto {
+  display: inline-block;
+  padding: 3vh;
+  border-radius: 2vh;
+  border: solid #E2E6E9 2px; }
+
+.autor {
+  position: relative;
+  bottom: 2vh;
+  right: 4vh; }
+
+.editorial {
+  position: relative;
+  bottom: 2vh;
+  left: 2vh; }
+
+.nav-tabs {
+  background: #BA1414;
+  border-radius: 1vh; }
+  .nav-tabs a {
+    color: white; }
+  .nav-tabs:hover {
+    color: #BA1414; }
+  .nav-tabs li a.champions {
+    background-color: #113673;
+    color: white; }
+
+.menu2 {
+  padding: 0.5vh;
+  border-radius: 1vh;
+  background-color: #E2E6E9; }
+  .menu2 a {
+    padding: 0vh 2vh; }
+
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -75,18 +132,60 @@ h6:nth-child(2) {
 .space2 {
   margin-bottom: 6px; }
 
+.btn {
+  background-color: #BA1414;
+  color: white; }
+  .btn:hover {
+    background-color: #BA1414;
+    color: white; }
+
+.separador {
+  margin-bottom: 4vh; }
+
+.container h5 {
+  display: inline-block;
+  color: #6878A0; }
+.container i {
+  color: #BA1414;
+  font-size: 1.3em; }
+
+.row {
+  margin-bottom: 3vh;
+  margin-top: 3vh; }
+
+.caja {
+  border: solid #E2E6E9 2px;
+  padding: 2vh; }
+  .caja .caja-foto {
+    background-color: #E2E6E9;
+    padding: 2vh; }
+
+.foto,
+.nombre {
+  display: inline-block; }
+
+.foto {
+  border: solid white 5px; }
+
+.nombre {
+  padding: 0vh 2vh; }
+
+h6:nth-child(2) {
+  color: #6878A0; }
+
+.btn {
+  background-color: #BA1414;
+  color: white; }
+  .btn:hover {
+    background-color: #BA1414;
+    color: white; }
+
 @media (max-width: 750px) {
   .caja {
     margin: 1vh 0vh; }
 
-  .space {
+  .row {
     margin: 0px; }
-
-  .space-responsive {
-    margin-bottom: 6px; }
-
-  .space2 {
-    margin-bottom: 0px; }
 
   .footer-2 {
     font-size: 18px;
