@@ -1,9 +1,9 @@
 @mixin padding-footer($padding-sides:20px, $padding-tops:20px) {
-    padding: $padding-sides $padding-tops;
-    text-align: center;
+	padding: $padding-sides $padding-tops;
+	text-align: center;
 }
 
 @mixin footer-responsive($padding-f, $width-f) {
-    padding: $padding-f;
-    width: $width-f;
+	padding: $padding-f;
+	width: $width-f;
 }

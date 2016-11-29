@@ -142,8 +142,6 @@ h6:nth-child(2) {
 .separador {
   margin-bottom: 4vh; }
 
-<<<<<<< HEAD
-=======
 .container h5 {
   display: inline-block;
   color: #6878A0; }
@@ -182,7 +180,6 @@ h6:nth-child(2) {
     background-color: #BA1414;
     color: white; }
 
->>>>>>> 0aef5baac4924f6399c6e870e7330888fd896f8e
 @media (max-width: 750px) {
   .caja {
     margin: 1vh 0vh; }
