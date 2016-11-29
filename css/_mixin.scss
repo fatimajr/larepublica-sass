@@ -2,7 +2,8 @@
 	padding: $padding-sides $padding-tops;
 	text-align: center;
 }
-@mixin footer-responsive($padding-f,$width-f){
+
+@mixin footer-responsive($padding-f, $width-f) {
 	padding: $padding-f;
 	width: $width-f;
 }
