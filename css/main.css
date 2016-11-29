@@ -1,1 +1,48 @@
+/*-- COLORES --*/
+/*-- TAMANIOS --*/
+/*-- FONTS --*/
+.container h5 {
+  display: inline-block;
+  color: #6878A0; }
+.container i {
+  color: #BA1414;
+  font-size: 1.3em; }
 
+.row {
+  margin-bottom: 3vh;
+  margin-top: 3vh; }
+
+.caja {
+  border: solid #E2E6E9 2px;
+  padding: 2vh; }
+  .caja .caja-foto {
+    background-color: #E2E6E9;
+    padding: 2vh; }
+
+.foto, .nombre {
+  display: inline-block; }
+
+.foto {
+  border: solid white 5px; }
+
+.nombre {
+  padding: 0vh 2vh; }
+
+h6:nth-child(2) {
+  color: #6878A0; }
+
+.btn {
+  background-color: #BA1414;
+  color: white; }
+  .btn:hover {
+    background-color: #BA1414;
+    color: white; }
+
+@media (max-width: 750px) {
+  .caja {
+    margin: 1vh 0vh; }
+
+  .row {
+    margin: 0px; } }
+
+/*# sourceMappingURL=main.css.map */

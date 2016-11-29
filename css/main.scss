@@ -1,0 +1,56 @@
+@import "_variables";
+
+.container{
+	h5{
+		display: inline-block;
+		color: $celeste-letras;
+	}
+	i{
+		color: $rojo;
+		font-size: 1.3em;
+	}
+}
+.row{
+	margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.caja{
+	border: solid $gris 2px;
+	padding: 2vh;
+	.caja-foto{
+		background-color: $gris;
+		padding: 2vh;
+	}
+}
+
+.foto, .nombre{
+	display: inline-block;
+}
+
+.foto{
+	border: solid white 5px;
+}
+.nombre{
+	padding:0vh 2vh;
+}
+
+h6:nth-child(2){
+	color: $celeste-letras;
+}
+
+.btn{
+	background-color: $rojo;
+	color: white;
+	&:hover{
+		background-color: $rojo;
+		color: white;
+	}
+}
+@media (max-width: 750px) { 
+	.caja{
+		margin: 1vh 0vh;
+	}
+	.row{
+		margin: 0px;
+	}
+}
