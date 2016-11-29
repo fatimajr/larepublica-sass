@@ -6,10 +6,116 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>La República - Sass</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="css/vendor/main.css">
 </head>
 <body>
-	
+	<header>
+        <!-- publicidad -->
+            <div class="container">
+                <div class="row">
+					<img class="banner" src="image/banner_top.jpg">
+				</div>
+				<div class="row">
+					<div class="col-lg-5 col-xs-12 navder">
+						<nav class="otrosDiarios">
+							<a href="#">LIBERO.PE</a>
+							<a href="#">ELPOPULAR.PE</a>
+							<a href="#">FUNDACION GUSTAVO MOHME LLONA</a>
+						</nav>
+					</div>
+					<div class="col-lg-7 col-xs-12 navder">
+						<div class="col-xs-4"> 
+							<button type="button" class="btn btn-default btn-xs" id="btn-suscribete">SUSCRÍBETE AL BOLETÍN</button>
+						</div>
+						<div class="col-xs-4">
+							<div class="headerIconos">
+								<i class="fa fa-facebook-f"></i>
+								<i class="fa fa-twitter"></i>
+								<i class="fa fa-google-plus"></i>
+								<i class="fa fa-envelope"></i>
+								<i class="fa fa-rss"></i>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="buscador">
+								<input type="text" name="buscar" placeholder="BUSCAR">
+									<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <section class="container">
+            <div class="row editorial-header">
+                <div class="col-lg-5">
+                  	<a href="home.html">
+        	       		<img src="image/logo-la-republica.jpg" class="logo-republica" alt="diario la republica">
+                   	</a>
+                    </div>
+                <div class="col-lg-3">
+                    <div class="miniatura-columna-diaria">
+                        <div class="titulo-miniatura">DOMINGO</div>
+                        <p>HABLA LA LIDERESA DEL NACIONALISMO</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+            	    <div class="seccion-editorial">
+                        <img src="image/img_editorial_text.jpg" alt="Gustavo Mohme" class="editorial-columna">
+                        <div class="miniatura-editorial">
+                            <strong><a href="">La corrupción, los orígenes</a></strong><br>
+                            <dfn>por: <a href="">Gustavo Mohme Llona</a></dfn>
+                        </div>
+                        <img src="image/img_author.jpg" alt="" class="autor-columna">           
+                    </div>
+                </div>
+            </div>
+            <ul class="nav nav-tabs visible-lg-block" role="tablist">
+                <li><a href="#">politica</a></li>
+                <li><a href="#">economia</a></li>
+                <li><a href="#">sociedad</a></li>
+                <li><a href="#">elecc. regionales</a></li>
+                <li><a href="#">deportes</a></li>
+                <li class="active"><a class="champions" href="#">champions</a></li>
+                <li><a href="#">espectaculos</a></li>
+                <li><a href="#">ed. impresa</a></li>
+                <li><a href="#">regionales</a></li>
+            	<li><a href="#">más secciones</a></li>
+            </ul>
+            <div class="row tema-dia">
+                <div class="col-xs-2 tema">
+                    <p class="tm-title">TEMAS DEL DIA</p>
+                </div>
+            	<div class="col-xs-10 visible-lg-block lista">
+                    <a href="#">Globos de Oro</a><img src="image/bullet.gif">
+                    <a href="#">YouTube</a><img src="image/bullet.gif">
+                    <a href="#">PNP</a><img src="image/bullet.gif">
+                    <a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+                    <a href="#">Globos de Oro</a><img src="image/bullet.gif">
+                    <a href="#">YouTube</a><img src="image/bullet.gif">
+                    <a href="#">PNP</a><img src="image/bullet.gif">
+                    <a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+                </div>
+                <div class="col-xs-10 hidden-lg visible-md-block visible-sm-block lista">
+                    <a href="#">Globos de Oro</a><img src="image/bullet.gif">
+                    <a href="#">YouTube</a><img src="image/bullet.gif">
+                    <a href="#">PNP</a><img src="image/bullet.gif">
+                    <a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+                    <a href="#">Globos de Oro</a><img src="image/bullet.gif">
+                </div>
+                <div class="col-xs-10 hidden-lg hidden-md hidden-sm lista">
+                    <a href="#">Globos de Oro</a><img src="image/bullet.gif">
+                    <a href="#">YouTube</a><img src="image/bullet.gif">
+                    <a href="#">PNP</a><img src="image/bullet.gif">
+                </div>
+            </div>
+            <div class="row visible-lg-block">
+                <img class="center-block banner-header" src="image/banner-header.jpg" alt="publicidad">
+            </div>
+        </section>
+	</header>
+
+
 </body>
 </html>
