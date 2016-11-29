@@ -1,18 +1,15 @@
 @import "_variables";
-				
-header {
-	.jumbotron {
-			.container {
-				.row{
-					.bar-izq a {
-						color:$gris;
-					}
-					.bar-der{
-						
-					}
-				}
-				
-			}
+
+.nav-dos {
+	background-color:#E2E6E9;
+	span {
+		display: inline-block;
+		background-color:$negro;
+	}
+	nav {
+		a{
+			display: inline;
+		}
 	}
 }
 
