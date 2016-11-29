@@ -1,16 +1,22 @@
 @import "_variables";
+body{
+	font-family:$Roboto;
+}
 
 .container{
-	h5{
+	h3{
 		display: inline-block;
 		color: $celeste-letras;
+		font-family: $Roboto;
+		font-weight: bold; 
+		font-size: 18px;
 	}
 	i{
 		color: $rojo;
 		font-size: 1.3em;
 	}
 }
-.row{
+.space{
 	margin-bottom: 3vh;
     margin-top: 3vh;
 }
@@ -31,11 +37,12 @@
 	border: solid white 5px;
 }
 .nombre{
-	padding:0vh 2vh;
+	padding: 0vh 1vh;
 }
 
 h6:nth-child(2){
 	color: $celeste-letras;
+	font-size:15px;
 }
 
 .btn{
@@ -46,11 +53,49 @@ h6:nth-child(2){
 		color: white;
 	}
 }
+/*-- columnistast-2----*/
+.columnistasefect{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.8%;
+	margin-bottom: 10px;
+	background-color: $rojo;
+	.botontefect{
+	color: white;
+	padding: 0.8% 20px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: $Roboto;
+    letter-spacing: 3px;
+     margin: 17px;
+		&:hover{
+		color: white;
+		background-color: #8A0808;
+		text-decoration: none;
+		}
+	}
+}
+.caja-foto{
+	background-color: $gris;
+	padding: 3.8vh;
+}
+.space2{
+	margin-bottom: 6px;
+}	
 @media (max-width: 750px) { 
 	.caja{
 		margin: 1vh 0vh;
 	}
-	.row{
+	.space{
 		margin: 0px;
+	}
+	.space-responsive{
+		margin-bottom: 6px;
+	}
+	.space2{
+		margin-bottom: 0px;
 	}
 }
