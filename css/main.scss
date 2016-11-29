@@ -1,4 +1,20 @@
 @import "_variables";
+				
+header {
+	.jumbotron {
+			.container {
+				.row{
+					.bar-izq a {
+						color:$gris;
+					}
+					.bar-der{
+						
+					}
+				}
+				
+			}
+	}
+}
 
 .container{
 	h5{
@@ -54,3 +70,4 @@ h6:nth-child(2){
 		margin: 0px;
 	}
 }
+
