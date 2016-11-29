@@ -1,6 +1,9 @@
 @import "_variables";
 @import "_mixin";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0aef5baac4924f6399c6e870e7330888fd896f8e
 .container-fluid{
 	background-color: $gris;
 }
@@ -164,6 +167,88 @@ h6:nth-child(2){
 	&:hover{
 		background-color: $rojo;
 		color: white;
+<<<<<<< HEAD
+=======
+	}
+}
+.separador{
+    margin-bottom: 4vh;
+}
+
+
+.container {
+	h5 {
+		display: inline-block;
+		color: $celeste-letras;
+	}
+	i {
+		color: $rojo;
+		font-size: 1.3em;
+	}
+}
+
+.row {
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+}
+
+.caja {
+	border: solid $gris 2px;
+	padding: 2vh;
+	.caja-foto {
+		background-color: $gris;
+		padding: 2vh;
+	}
+}
+
+.foto,
+.nombre {
+	display: inline-block;
+}
+
+.foto {
+	border: solid white 5px;
+}
+
+.nombre {
+	padding: 0vh 2vh;
+}
+
+h6:nth-child(2) {
+	color: $celeste-letras;
+}
+
+.btn {
+	background-color: $rojo;
+	color: white;
+	&:hover {
+		background-color: $rojo;
+		color: white;
+	}
+}
+
+@media (max-width: 750px) {
+	.caja {
+		margin: 1vh 0vh;
+	}
+	.row {
+		margin: 0px;
+	}
+	.footer-2 {
+		.titulo {
+			font-weight: 600;
+		}
+		font-size: 18px;
+		display: inline-block;
+		background-color: $gris-oscuro;
+		color: $footer-texto;
+		color: $white;
+		text-align: center;
+		@include footer-responsive(5% 3%, 100%);
+	}
+	.footer-1 {
+		display: none;
+>>>>>>> 0aef5baac4924f6399c6e870e7330888fd896f8e
 	}
 }
 .separador{
