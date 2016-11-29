@@ -79,14 +79,19 @@ h6:nth-child(2) {
 /* FOOTER */
 
 .footer-1 {
+	margin-top: 4em;
 	background-color: $gris;
 	font-family: $Roboto;
 	.logo-footer {
 		width: 70%;
 		padding-left: 20px;
 	}
-	a {
-		color: $footer-texto;
+	li {
+		a {
+			text-decoration: none;
+			color: $footer-texto;
+		}
+		list-style: none;
 	}
 	.footer-izq {
 		h3 {
@@ -95,11 +100,15 @@ h6:nth-child(2) {
 		font-size: 18px;
 	}
 	.footer-nav {
+		margin-top: 2em;
 		@include padding-footer(30px, 20px);
 		hr {
 			margin: 15px 0;
 			border-top: 2px solid $white;
 			box-shadow: 15px 0px 10px $gris;
+		}
+		a {
+			color: $gris-claro;
 		}
 	}
 	.linea-vertical {
@@ -110,7 +119,7 @@ h6:nth-child(2) {
 		position: absolute;
 	}
 }
+
 .footer-2 {
 	display: none;
 }
-
