@@ -14,12 +14,15 @@ El proyecto desarrollado se trabajó por parejas y dividiendo el proyecto en ram
 
 #####EQUIPO
 
-Andrea Maucaylli andreamaucaylli@gmail.com
-Annie Bardales anniekbh@gmail.com
-Christy Castro Cuba mchristy.ccb@gmail.com
-Fátima Jacobo Ruiz fatima.jacoboruiz@gmail.com
-Lezmit Galarza lezmit.gs@gmail.com
-Nora Yauricaza nora.yauricaza@gmail.com
-Sthefany Floriano sthefanyflorianog@gmail.com
+*Andrea Maucaylli andreamaucaylli@gmail.com           
+*Annie Bardales anniekbh@gmail.com                   
+*Christy Castro Cuba mchristy.ccb@gmail.com                 
+*Fátima Jacobo Ruiz fatima.jacoboruiz@gmail.com                       
+*Lezmit Galarza lezmit.gs@gmail.com                      
+*Nora Yauricaza nora.yauricaza@gmail.com                 
+*Sthefany Floriano sthefanyflorianog@gmail.com 
+
+![Columnistas](http://i65.tinypic.com/nd69z9.jpg)
+            
 
 
