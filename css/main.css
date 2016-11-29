@@ -29,16 +29,18 @@
 .footer-2 {
   display: none; }
 
-/*TABLETS*/
 @media (max-width: 990px) {
   .footer-2 {
+    font-size: 18px;
     display: inline-block;
-    background-color: #B4A8A5;
+    background-color: #1A1A1A;
     color: #333333;
     color: #fff;
     text-align: center;
     padding: 5% 3%;
     width: 100%; }
+    .footer-2 .titulo {
+      font-weight: 600; }
 
   .footer-1 {
     display: none; } }

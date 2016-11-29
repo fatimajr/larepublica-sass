@@ -37,17 +37,16 @@
 	display: none;
 }
 
-
-/*TABLETS*/
-
-@media (max-width: 991px) {}
-
-@media (max-width: 767px) {}
+@media (max-width: 750) {}
 
 @media (max-width:990px) {
 	.footer-2 {
+		.titulo {
+			font-weight: 600;
+		}
+		font-size: 18px;
 		display: inline-block;
-		background-color: $gris-claro;
+		background-color: $gris-oscuro;
 		color: $footer-texto;
 		color: $white;
 		text-align: center;
